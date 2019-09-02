@@ -26,7 +26,7 @@ Example included in /DOX-Distribution/Data/Tissue Samples/
     
     
 2. Implement intensity to concentration calibration equation in int2con.m function:
-    * Codes --> Functions --> int2con
+    * Codes --> Functions --> int2con.m
     
     
 3. Generate otsu's bead segmentation threshold by running OtsuThresholdGenerator.m:
