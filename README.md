@@ -3,7 +3,7 @@ Quantitative analysis of doxorubicin (DOX) distribution relative to drug eluting
 
 ## Requirements
 - MATLAB with image processing toolbox
-- Grayscale fluorescent microscopy images in tif format
+- Grayscale fluorescence microscopy images in tif format
 - Untreated samples to establish a threshold for DOX intensity detection
 - Intensity to concentration calibration equation 
 - Images acquired with standard exposure and settings
