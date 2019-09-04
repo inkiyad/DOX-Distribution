@@ -99,8 +99,9 @@ Example included in /DOX-Distribution/Data/Tissue Samples/
 11. Map average doxorubicin concentration to distance by running Distance2Concentration.m:
     * Codes --> DOX Quantification --> Distance2Concentration.m
     * The inputs consist of filtered image and TissueMask from the sample directory.
-        - This script incorporates manual selection of the cluster to be analyzed
-        - There will be two figures one of them will have area labeled and other will just have BeadCluster binary mask overlay
+        - This script incorporates manual selection of the cluster to be analyzed.
+        - * Max distance for analysis should be modified. In this example only goes up to 200 pixels from the selected region. *
+        - There will be two figures one of them will have area labeled and other will just have BeadCluster binary mask overlay.
     * The output from this script is [filtered file name]_Dist2Con.mat.
         - the script also depicts a concentration vs distance plot.
     
