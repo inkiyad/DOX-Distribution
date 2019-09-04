@@ -13,8 +13,8 @@ sample = dir('W*'); % Locate all the woodchuck tumor images *W* locates all fold
 SaveDirectory = '../Stats/';
 
 % Conversion
-px2micro = 1.29; % 1.29µm/1px
-micro2mm = 1/1000; % 1µm/1000mm
+px2micro = 1.29; % 1.29Âµm/1px
+micro2mm = 1/1000; % 1Âµm/1000mm
 
 % Max distance
 MaxDistance = 200;
@@ -70,7 +70,7 @@ count = 1;
     end
         
     Dist2Int = mean(Dist2Int,2);
-    Dist2Con(:,count,1) = int2con(Dist2Int); %µg/ml
+    Dist2Con(:,count,1) = int2con(Dist2Int); %Âµg/ml
     Disr2Con(:,count,2) = input('Please Enter Bead Cluster Area (mm^2) ');
     Dist = 1:MaxDistance;
     Dist = Dist'.*(px2micro);
@@ -82,9 +82,9 @@ count = 1;
     figure(3);
     plot(Dist, Dist2Con,'LineWidth', 3, 'Color', 'red'); 
     title('DOX Penetration 45 Minutes Post TACE', 'FontSize', 20);
-    xlabel('Distance (µm)', 'FontSize', 18); 
-    ylabel('DOX Concentration (µg/mL)', 'FontSize', 18);
-    ylim([0 inf]); xlim([0 MaxDistance]);
+    xlabel('Distance (Âµm)', 'FontSize', 18); 
+    ylabel('DOX Concentration (Âµg/mL)', 'FontSize', 18);
+    ylim([0 inf]); xlim([0 MaxDistance*px2micro]);
     set(gca, 'FontSize', 16);
     
     
