@@ -115,6 +115,9 @@ Example included in /DOX-Distribution/Data/Tissue Samples/
 - Exposure Calibration: Calibrating exposure to intensity and concentration
 - Miscallenous: Other methods of bead segmentation and analysis (i.e kmeans)
 
+## Figures
+![](Data/Tissue Samples/W012_6a_S1_example/Output%20Check/HeatMapScaleBar.jpg)
+
 
 ## Acknowledgement
 * Center of Clinical Oncology, Radiology and Imaging Science, NIH Clinical Center, National Institutes of Health, Bethesda, MD
