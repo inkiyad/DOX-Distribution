@@ -116,7 +116,7 @@ Example included in /DOX-Distribution/Data/Tissue Samples/
 - Miscallenous: Other methods of bead segmentation and analysis (i.e kmeans)
 
 ## Figures
-![](Data/Tissue Samples/W012_6a_S1_example/Output%20Check/HeatMapScaleBar.jpg)
+![](Data/Tissue%20Samples/W012_6a_S1_example/Output%20Check/HeatMapScaleBar.jpg)
 
 
 ## Acknowledgement
